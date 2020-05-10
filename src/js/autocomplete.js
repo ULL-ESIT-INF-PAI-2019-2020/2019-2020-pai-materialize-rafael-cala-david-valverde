@@ -1,3 +1,4 @@
+/* Opciones del autocompletado */
 var options = {
   data: {
     "Java": "../img/logo-java.png",
@@ -11,6 +12,8 @@ var options = {
     "C#": "../img/logo-csharp.png" 
   },
 }
+
+/* Evento que incializa el autocompletado */
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.autocomplete');
   var instances = M.Autocomplete.init(elems, options);
