@@ -2,6 +2,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel');
   var instances = M.Carousel.init(elems, {
-    // numVisible: 3
+    //numVisible: 3
   });
 });
