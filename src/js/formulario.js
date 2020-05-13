@@ -1,10 +1,10 @@
 /* Inicialización del Datepicker y de los elementos de selección */
 document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('.datepicker');
-  var instances = M.Datepicker.init(elems);
+  const elems = document.querySelectorAll('.datepicker');
+  const instances = M.Datepicker.init(elems);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('select');
-  var instances = M.FormSelect.init(elems);
+  const elems = document.querySelectorAll('select');
+  const instances = M.FormSelect.init(elems);
 });
